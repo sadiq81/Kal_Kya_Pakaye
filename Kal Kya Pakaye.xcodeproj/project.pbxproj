@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7810BC9D18C8CF8700042230 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7810BC9C18C8CF8700042230 /* Foundation.framework */; };
+		7810BC9F18C8CF8700042230 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7810BC9E18C8CF8700042230 /* CoreGraphics.framework */; };
+		7810BCA118C8CF8700042230 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7810BCA018C8CF8700042230 /* UIKit.framework */; };
+		7810BCA318C8CF8700042230 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7810BCA218C8CF8700042230 /* CoreData.framework */; };
+		7810BCA918C8CF8700042230 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7810BCA718C8CF8700042230 /* InfoPlist.strings */; };
+		7810BCAB18C8CF8700042230 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7810BCAA18C8CF8700042230 /* main.m */; };
+		7810BCAF18C8CF8700042230 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7810BCAE18C8CF8700042230 /* AppDelegate.m */; };
+		7810BCB218C8CF8700042230 /* Kal_Kya_Pakaye.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7810BCB018C8CF8700042230 /* Kal_Kya_Pakaye.xcdatamodeld */; };
+		7810BCB418C8CF8700042230 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7810BCB318C8CF8700042230 /* Images.xcassets */; };
+		7810BCBB18C8CF8700042230 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7810BCBA18C8CF8700042230 /* XCTest.framework */; };
+		7810BCBC18C8CF8700042230 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7810BC9C18C8CF8700042230 /* Foundation.framework */; };
+		7810BCBD18C8CF8700042230 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7810BCA018C8CF8700042230 /* UIKit.framework */; };
+		7810BCBE18C8CF8700042230 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7810BCA218C8CF8700042230 /* CoreData.framework */; };
+		7810BCC618C8CF8800042230 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7810BCC418C8CF8800042230 /* InfoPlist.strings */; };
+		7810BCC818C8CF8800042230 /* Kal_Kya_PakayeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7810BCC718C8CF8800042230 /* Kal_Kya_PakayeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7810BCBF18C8CF8800042230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7810BC9118C8CF8700042230 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7810BC9818C8CF8700042230;
+			remoteInfo = "Kal Kya Pakaye";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7810BC9918C8CF8700042230 /* Kal Kya Pakaye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kal Kya Pakaye.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7810BC9C18C8CF8700042230 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7810BC9E18C8CF8700042230 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7810BCA018C8CF8700042230 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7810BCA218C8CF8700042230 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7810BCA618C8CF8700042230 /* Kal Kya Pakaye-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kal Kya Pakaye-Info.plist"; sourceTree = "<group>"; };
+		7810BCA818C8CF8700042230 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7810BCAA18C8CF8700042230 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7810BCAC18C8CF8700042230 /* Kal Kya Pakaye-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kal Kya Pakaye-Prefix.pch"; sourceTree = "<group>"; };
+		7810BCAD18C8CF8700042230 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7810BCAE18C8CF8700042230 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7810BCB118C8CF8700042230 /* Kal_Kya_Pakaye.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kal_Kya_Pakaye.xcdatamodel; sourceTree = "<group>"; };
+		7810BCB318C8CF8700042230 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7810BCB918C8CF8700042230 /* Kal Kya PakayeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kal Kya PakayeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7810BCBA18C8CF8700042230 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7810BCC318C8CF8800042230 /* Kal Kya PakayeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kal Kya PakayeTests-Info.plist"; sourceTree = "<group>"; };
+		7810BCC518C8CF8800042230 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7810BCC718C8CF8800042230 /* Kal_Kya_PakayeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kal_Kya_PakayeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7810BC9618C8CF8700042230 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7810BC9F18C8CF8700042230 /* CoreGraphics.framework in Frameworks */,
+				7810BCA318C8CF8700042230 /* CoreData.framework in Frameworks */,
+				7810BCA118C8CF8700042230 /* UIKit.framework in Frameworks */,
+				7810BC9D18C8CF8700042230 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7810BCB618C8CF8700042230 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7810BCBB18C8CF8700042230 /* XCTest.framework in Frameworks */,
+				7810BCBE18C8CF8700042230 /* CoreData.framework in Frameworks */,
+				7810BCBD18C8CF8700042230 /* UIKit.framework in Frameworks */,
+				7810BCBC18C8CF8700042230 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7810BC9018C8CF8700042230 = {
+			isa = PBXGroup;
+			children = (
+				7810BCA418C8CF8700042230 /* Kal Kya Pakaye */,
+				7810BCC118C8CF8800042230 /* Kal Kya PakayeTests */,
+				7810BC9B18C8CF8700042230 /* Frameworks */,
+				7810BC9A18C8CF8700042230 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7810BC9A18C8CF8700042230 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7810BC9918C8CF8700042230 /* Kal Kya Pakaye.app */,
+				7810BCB918C8CF8700042230 /* Kal Kya PakayeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7810BC9B18C8CF8700042230 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7810BC9C18C8CF8700042230 /* Foundation.framework */,
+				7810BC9E18C8CF8700042230 /* CoreGraphics.framework */,
+				7810BCA018C8CF8700042230 /* UIKit.framework */,
+				7810BCA218C8CF8700042230 /* CoreData.framework */,
+				7810BCBA18C8CF8700042230 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7810BCA418C8CF8700042230 /* Kal Kya Pakaye */ = {
+			isa = PBXGroup;
+			children = (
+				7810BCAD18C8CF8700042230 /* AppDelegate.h */,
+				7810BCAE18C8CF8700042230 /* AppDelegate.m */,
+				7810BCB318C8CF8700042230 /* Images.xcassets */,
+				7810BCB018C8CF8700042230 /* Kal_Kya_Pakaye.xcdatamodeld */,
+				7810BCA518C8CF8700042230 /* Supporting Files */,
+			);
+			path = "Kal Kya Pakaye";
+			sourceTree = "<group>";
+		};
+		7810BCA518C8CF8700042230 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7810BCA618C8CF8700042230 /* Kal Kya Pakaye-Info.plist */,
+				7810BCA718C8CF8700042230 /* InfoPlist.strings */,
+				7810BCAA18C8CF8700042230 /* main.m */,
+				7810BCAC18C8CF8700042230 /* Kal Kya Pakaye-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7810BCC118C8CF8800042230 /* Kal Kya PakayeTests */ = {
+			isa = PBXGroup;
+			children = (
+				7810BCC718C8CF8800042230 /* Kal_Kya_PakayeTests.m */,
+				7810BCC218C8CF8800042230 /* Supporting Files */,
+			);
+			path = "Kal Kya PakayeTests";
+			sourceTree = "<group>";
+		};
+		7810BCC218C8CF8800042230 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7810BCC318C8CF8800042230 /* Kal Kya PakayeTests-Info.plist */,
+				7810BCC418C8CF8800042230 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7810BC9818C8CF8700042230 /* Kal Kya Pakaye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7810BCCB18C8CF8800042230 /* Build configuration list for PBXNativeTarget "Kal Kya Pakaye" */;
+			buildPhases = (
+				7810BC9518C8CF8700042230 /* Sources */,
+				7810BC9618C8CF8700042230 /* Frameworks */,
+				7810BC9718C8CF8700042230 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kal Kya Pakaye";
+			productName = "Kal Kya Pakaye";
+			productReference = 7810BC9918C8CF8700042230 /* Kal Kya Pakaye.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7810BCB818C8CF8700042230 /* Kal Kya PakayeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7810BCCE18C8CF8800042230 /* Build configuration list for PBXNativeTarget "Kal Kya PakayeTests" */;
+			buildPhases = (
+				7810BCB518C8CF8700042230 /* Sources */,
+				7810BCB618C8CF8700042230 /* Frameworks */,
+				7810BCB718C8CF8700042230 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7810BCC018C8CF8800042230 /* PBXTargetDependency */,
+			);
+			name = "Kal Kya PakayeTests";
+			productName = "Kal Kya PakayeTests";
+			productReference = 7810BCB918C8CF8700042230 /* Kal Kya PakayeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7810BC9118C8CF8700042230 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Tommy Sadiq Hinrichsen";
+				TargetAttributes = {
+					7810BCB818C8CF8700042230 = {
+						TestTargetID = 7810BC9818C8CF8700042230;
+					};
+				};
+			};
+			buildConfigurationList = 7810BC9418C8CF8700042230 /* Build configuration list for PBXProject "Kal Kya Pakaye" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7810BC9018C8CF8700042230;
+			productRefGroup = 7810BC9A18C8CF8700042230 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7810BC9818C8CF8700042230 /* Kal Kya Pakaye */,
+				7810BCB818C8CF8700042230 /* Kal Kya PakayeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7810BC9718C8CF8700042230 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7810BCA918C8CF8700042230 /* InfoPlist.strings in Resources */,
+				7810BCB418C8CF8700042230 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7810BCB718C8CF8700042230 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7810BCC618C8CF8800042230 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7810BC9518C8CF8700042230 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7810BCB218C8CF8700042230 /* Kal_Kya_Pakaye.xcdatamodeld in Sources */,
+				7810BCAF18C8CF8700042230 /* AppDelegate.m in Sources */,
+				7810BCAB18C8CF8700042230 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7810BCB518C8CF8700042230 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7810BCC818C8CF8800042230 /* Kal_Kya_PakayeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7810BCC018C8CF8800042230 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7810BC9818C8CF8700042230 /* Kal Kya Pakaye */;
+			targetProxy = 7810BCBF18C8CF8800042230 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7810BCA718C8CF8700042230 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7810BCA818C8CF8700042230 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7810BCC418C8CF8800042230 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7810BCC518C8CF8800042230 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7810BCC918C8CF8800042230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7810BCCA18C8CF8800042230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7810BCCC18C8CF8800042230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kal Kya Pakaye/Kal Kya Pakaye-Prefix.pch";
+				INFOPLIST_FILE = "Kal Kya Pakaye/Kal Kya Pakaye-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7810BCCD18C8CF8800042230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kal Kya Pakaye/Kal Kya Pakaye-Prefix.pch";
+				INFOPLIST_FILE = "Kal Kya Pakaye/Kal Kya Pakaye-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7810BCCF18C8CF8800042230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kal Kya Pakaye.app/Kal Kya Pakaye";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kal Kya Pakaye/Kal Kya Pakaye-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Kal Kya PakayeTests/Kal Kya PakayeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7810BCD018C8CF8800042230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kal Kya Pakaye.app/Kal Kya Pakaye";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kal Kya Pakaye/Kal Kya Pakaye-Prefix.pch";
+				INFOPLIST_FILE = "Kal Kya PakayeTests/Kal Kya PakayeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7810BC9418C8CF8700042230 /* Build configuration list for PBXProject "Kal Kya Pakaye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7810BCC918C8CF8800042230 /* Debug */,
+				7810BCCA18C8CF8800042230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7810BCCB18C8CF8800042230 /* Build configuration list for PBXNativeTarget "Kal Kya Pakaye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7810BCCC18C8CF8800042230 /* Debug */,
+				7810BCCD18C8CF8800042230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7810BCCE18C8CF8800042230 /* Build configuration list for PBXNativeTarget "Kal Kya PakayeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7810BCCF18C8CF8800042230 /* Debug */,
+				7810BCD018C8CF8800042230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7810BCB018C8CF8700042230 /* Kal_Kya_Pakaye.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7810BCB118C8CF8700042230 /* Kal_Kya_Pakaye.xcdatamodel */,
+			);
+			currentVersion = 7810BCB118C8CF8700042230 /* Kal_Kya_Pakaye.xcdatamodel */;
+			path = Kal_Kya_Pakaye.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7810BC9118C8CF8700042230 /* Project object */;
+}
