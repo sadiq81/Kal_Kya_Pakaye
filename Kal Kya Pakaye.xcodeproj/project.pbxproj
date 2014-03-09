@@ -22,6 +22,16 @@
 		7810BCBE18C8CF8700042230 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7810BCA218C8CF8700042230 /* CoreData.framework */; };
 		7810BCC618C8CF8800042230 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7810BCC418C8CF8800042230 /* InfoPlist.strings */; };
 		7810BCC818C8CF8800042230 /* Kal_Kya_PakayeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7810BCC718C8CF8800042230 /* Kal_Kya_PakayeTests.m */; };
+		7810BCD318C8D02700042230 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7810BCD218C8D02700042230 /* Storyboard.storyboard */; };
+		7810BCD618C8D1F700042230 /* dining_room-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 7810BCD518C8D1F700042230 /* dining_room-48.png */; };
+		7810BCD818C8D20000042230 /* list-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 7810BCD718C8D20000042230 /* list-48.png */; };
+		7810BCDB18C8D42E00042230 /* RecipesNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7810BCDA18C8D42E00042230 /* RecipesNavigationController.m */; };
+		7810BCDE18C8D5DB00042230 /* KalKyaPakayeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7810BCDD18C8D5DB00042230 /* KalKyaPakayeViewController.m */; };
+		7810BCE018C8D65500042230 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7810BCDF18C8D65500042230 /* background.jpg */; };
+		7810BCE418C8DB7E00042230 /* Dish.m in Sources */ = {isa = PBXBuildFile; fileRef = 7810BCE318C8DB7E00042230 /* Dish.m */; };
+		78B5A8AE18CA6687008BDF4D /* EditDishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B5A8AD18CA6687008BDF4D /* EditDishViewController.m */; };
+		C130B0D94E158F2AF52348FC /* RecipesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C130BCC3B0EEADF1570D9980 /* RecipesTableViewController.m */; };
+		C130BB0FAEF8F780F6DECE6E /* dishes.json in Resources */ = {isa = PBXBuildFile; fileRef = C130B6D6DF104A86DFEE59CD /* dishes.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +63,21 @@
 		7810BCC318C8CF8800042230 /* Kal Kya PakayeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kal Kya PakayeTests-Info.plist"; sourceTree = "<group>"; };
 		7810BCC518C8CF8800042230 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7810BCC718C8CF8800042230 /* Kal_Kya_PakayeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kal_Kya_PakayeTests.m; sourceTree = "<group>"; };
+		7810BCD218C8D02700042230 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		7810BCD518C8D1F700042230 /* dining_room-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dining_room-48.png"; sourceTree = "<group>"; };
+		7810BCD718C8D20000042230 /* list-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-48.png"; sourceTree = "<group>"; };
+		7810BCD918C8D42E00042230 /* RecipesNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipesNavigationController.h; sourceTree = "<group>"; };
+		7810BCDA18C8D42E00042230 /* RecipesNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipesNavigationController.m; sourceTree = "<group>"; };
+		7810BCDC18C8D5DB00042230 /* KalKyaPakayeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KalKyaPakayeViewController.h; sourceTree = "<group>"; };
+		7810BCDD18C8D5DB00042230 /* KalKyaPakayeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KalKyaPakayeViewController.m; sourceTree = "<group>"; };
+		7810BCDF18C8D65500042230 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		7810BCE218C8DB7E00042230 /* Dish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dish.h; sourceTree = "<group>"; };
+		7810BCE318C8DB7E00042230 /* Dish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dish.m; sourceTree = "<group>"; };
+		78B5A8AC18CA6687008BDF4D /* EditDishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditDishViewController.h; sourceTree = "<group>"; };
+		78B5A8AD18CA6687008BDF4D /* EditDishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditDishViewController.m; sourceTree = "<group>"; };
+		C130B550EEFE382EE8898694 /* RecipesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipesTableViewController.h; sourceTree = "<group>"; };
+		C130B6D6DF104A86DFEE59CD /* dishes.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = dishes.json; sourceTree = "<group>"; };
+		C130BCC3B0EEADF1570D9980 /* RecipesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipesTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +109,9 @@
 		7810BC9018C8CF8700042230 = {
 			isa = PBXGroup;
 			children = (
+				7810BCE118C8DB6B00042230 /* DAL */,
+				7810BCD418C8D15700042230 /* images */,
+				7810BCD118C8D01500042230 /* View */,
 				7810BCA418C8CF8700042230 /* Kal Kya Pakaye */,
 				7810BCC118C8CF8800042230 /* Kal Kya PakayeTests */,
 				7810BC9B18C8CF8700042230 /* Frameworks */,
@@ -131,6 +159,7 @@
 				7810BCA718C8CF8700042230 /* InfoPlist.strings */,
 				7810BCAA18C8CF8700042230 /* main.m */,
 				7810BCAC18C8CF8700042230 /* Kal Kya Pakaye-Prefix.pch */,
+				C130B6D6DF104A86DFEE59CD /* dishes.json */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -151,6 +180,41 @@
 				7810BCC418C8CF8800042230 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7810BCD118C8D01500042230 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7810BCD218C8D02700042230 /* Storyboard.storyboard */,
+				7810BCD918C8D42E00042230 /* RecipesNavigationController.h */,
+				7810BCDA18C8D42E00042230 /* RecipesNavigationController.m */,
+				7810BCDC18C8D5DB00042230 /* KalKyaPakayeViewController.h */,
+				7810BCDD18C8D5DB00042230 /* KalKyaPakayeViewController.m */,
+				C130BCC3B0EEADF1570D9980 /* RecipesTableViewController.m */,
+				C130B550EEFE382EE8898694 /* RecipesTableViewController.h */,
+				78B5A8AC18CA6687008BDF4D /* EditDishViewController.h */,
+				78B5A8AD18CA6687008BDF4D /* EditDishViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7810BCD418C8D15700042230 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7810BCDF18C8D65500042230 /* background.jpg */,
+				7810BCD718C8D20000042230 /* list-48.png */,
+				7810BCD518C8D1F700042230 /* dining_room-48.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		7810BCE118C8DB6B00042230 /* DAL */ = {
+			isa = PBXGroup;
+			children = (
+				7810BCE218C8DB7E00042230 /* Dish.h */,
+				7810BCE318C8DB7E00042230 /* Dish.m */,
+			);
+			name = DAL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +264,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Tommy Sadiq Hinrichsen";
 				TargetAttributes = {
+					7810BC9818C8CF8700042230 = {
+						DevelopmentTeam = 2Z296RX4K9;
+					};
 					7810BCB818C8CF8700042230 = {
 						TestTargetID = 7810BC9818C8CF8700042230;
 					};
@@ -230,6 +297,11 @@
 			files = (
 				7810BCA918C8CF8700042230 /* InfoPlist.strings in Resources */,
 				7810BCB418C8CF8700042230 /* Images.xcassets in Resources */,
+				7810BCD818C8D20000042230 /* list-48.png in Resources */,
+				7810BCE018C8D65500042230 /* background.jpg in Resources */,
+				7810BCD318C8D02700042230 /* Storyboard.storyboard in Resources */,
+				7810BCD618C8D1F700042230 /* dining_room-48.png in Resources */,
+				C130BB0FAEF8F780F6DECE6E /* dishes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,9 +320,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78B5A8AE18CA6687008BDF4D /* EditDishViewController.m in Sources */,
+				7810BCDB18C8D42E00042230 /* RecipesNavigationController.m in Sources */,
+				7810BCE418C8DB7E00042230 /* Dish.m in Sources */,
 				7810BCB218C8CF8700042230 /* Kal_Kya_Pakaye.xcdatamodeld in Sources */,
 				7810BCAF18C8CF8700042230 /* AppDelegate.m in Sources */,
 				7810BCAB18C8CF8700042230 /* main.m in Sources */,
+				7810BCDE18C8D5DB00042230 /* KalKyaPakayeViewController.m in Sources */,
+				C130B0D94E158F2AF52348FC /* RecipesTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Kal Kya Pakaye/Kal Kya Pakaye-Prefix.pch";
 				INFOPLIST_FILE = "Kal Kya Pakaye/Kal Kya Pakaye-Info.plist";
@@ -382,6 +460,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Kal Kya Pakaye/Kal Kya Pakaye-Prefix.pch";
 				INFOPLIST_FILE = "Kal Kya Pakaye/Kal Kya Pakaye-Info.plist";
@@ -451,6 +530,7 @@
 				7810BCCD18C8CF8800042230 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7810BCCE18C8CF8800042230 /* Build configuration list for PBXNativeTarget "Kal Kya PakayeTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +539,7 @@
 				7810BCD018C8CF8800042230 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
